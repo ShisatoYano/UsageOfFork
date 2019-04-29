@@ -61,3 +61,11 @@ By pushing 'Open' button on the upper right, GUI will be switched to the one for
 
 ## Commit
 ---
+You can see all of files which are changed and uncommitted by choosing 'Changes' on the left side menue.  
+![](2019-04-29-00-12-03.png)
+
+After 'Changes' was chosen, all of unstaged files are displayed as follow. The changed of each file are displayed by choosing the file.
+![](2019-04-29-00-13-47.png)
+
+When you want to commit them, you need to select files you want to commit and push 'Stage' button on unstaged files GUI. After that, you can enter commit subject, description and push 'Commit ~ Files' button on the lower right of GUI.  
+![](2019-04-29-00-17-58.png)

@@ -69,3 +69,12 @@ After 'Changes' was chosen, all of unstaged files are displayed as follow. The c
 
 When you want to commit them, you need to select files you want to commit and push 'Stage' button on unstaged files GUI. After that, you can enter commit subject, description and push 'Commit ~ Files' button on the lower right of GUI.  
 ![](2019-04-29-00-17-58.png)
+
+## Push
+---
+'Push' button is located on the upper left of GUI as follow.  
+![](2019-04-29-19-48-15.png)
+
+You can see the following window by pushing 'Push' button. You can push the commited files to a remote repository on this window.  
+![](2019-04-29-19-47-41.png)
+

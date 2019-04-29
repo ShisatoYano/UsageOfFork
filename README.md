@@ -1,6 +1,27 @@
-# UsageOfFork
+# Usage of Fork
 ---
-Memo about usage of Git GUI client, Fork.
+Memo about usage of Git GUI client, Fork.  
+
+## Table of contents
+---
+<!-- TOC -->
+
+- [Usage of Fork](#usage-of-fork)
+    - [Table of contents](#table-of-contents)
+    - [Introduction](#introduction)
+    - [About Fork](#about-fork)
+    - [Downloading and Installation](#downloading-and-installation)
+    - [GUI](#gui)
+    - [Clone](#clone)
+    - [Repository Manager](#repository-manager)
+    - [Commit](#commit)
+    - [Push](#push)
+    - [Create Branch](#create-branch)
+    - [Merge Branch](#merge-branch)
+    - [Merge Conflict](#merge-conflict)
+    - [Conclusion](#conclusion)
+
+<!-- /TOC -->
 
 
 ## Introduction
@@ -90,3 +111,27 @@ For example, 2 new branches are created and displayed on the GUI like this.
 ---
 Firstly, you need to check out working branch. And then, you need to right click on the merge branch and select 'Merge into ~'. You can see the following Merge Branch window and can merge those branches.  
 ![](2019-04-29-21-36-56.png)
+
+## Merge Conflict
+---
+If there is a conflict between 2 branches, a warning message 'The merge will require manual conflict resolution.' on Merge Branch window as follow.  
+![](2019-04-29-22-24-08.png)
+
+After you pushed 'Merge' button, a merge conflict message will be displayed like this.  
+![](2019-04-29-22-27-29.png)
+
+You need to close the above message and fix the conflict. Fork has a conflicts resolver which you can resolve the conflict easily. On the Fork GUI, you can see a 'resolve' button on the upper right. When you pushed the button, the resolver GUI will be opened as follow.  
+![](2019-04-29-22-39-20.png)
+
+On the GUI, you can choose the remote modification or local modification. If you want to choose the local modification, you should remove a check box of remote one as follow.  
+![](2019-04-29-22-42-46.png)
+
+Finally, you should push a button, 'Choose local (ours)'. And then, the conflict will be resolved and those branches will be merged automatically.  
+![](2019-04-29-22-47-40.png)
+
+The following figure is a commit log which merged branch 'branch_conflict' into master.  
+![](2019-04-29-22-54-41.png)
+
+## Conclusion
+---
+In this article, I explained about usage of Git GUI client, Fork. I think that there is not any much difference between another Git GUI client, for example, SourceTree. But, as I mentionted, Fork has a conflict resolver and it is very useful because I can fix the conflict easily on GUI. So, I think Fork is more useful than SourceTree.

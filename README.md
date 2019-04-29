@@ -85,3 +85,8 @@ You can see all of branches on the left of GUI. In the following figure, a curre
 
 For example, 2 new branches are created and displayed on the GUI like this.  
 ![](2019-04-29-20-15-19.png)
+
+## Merge Branch
+---
+Firstly, you need to check out working branch. And then, you need to right click on the merge branch and select 'Merge into ~'. You can see the following Merge Branch window and can merge those branches.  
+![](2019-04-29-21-36-56.png)

@@ -63,7 +63,7 @@ The black color theme is as follow.
 
 ## Clone
 ---
-Open 'File' menue on the upper left of GUI and select 'Clone'.  
+Open 'File' menu on the upper left of GUI and select 'Clone'.  
 ![](2019-04-28-23-13-10.png)
 After 'Clone' was selected, the following window will be opened. You need to enter Repository URL, Parent folder and Repository name. Finally, you need to push 'Clone' button.  
 ![](2019-04-28-23-11-11.png)
@@ -82,7 +82,7 @@ By pushing 'Open' button on the upper right, GUI will be switched to the one for
 
 ## Commit
 ---
-You can see all of files which are changed and uncommitted by choosing 'Changes' on the left side menue.  
+You can see all of files which are changed and uncommitted by choosing 'Changes' on the left side menu.  
 ![](2019-04-29-00-12-03.png)
 
 After 'Changes' was chosen, all of unstaged files are displayed as follow. The changed of each file are displayed by choosing the file.
@@ -101,7 +101,7 @@ You can see the following window by pushing 'Push' button. You can push the comm
 
 ## Create Branch
 ---
-You can see all of branches on the left of GUI. In the following figure, a current checked out branch is master branch. When you create a new branch, you need to do right click on the original branch and select 'Create New Brach...' menue.  
+You can see all of branches on the left of GUI. In the following figure, a current checked out branch is master branch. When you create a new branch, you need to do right click on the original branch and select 'Create New Brach...' menu.  
 ![](2019-04-29-20-04-36.png)
 
 For example, 2 new branches are created and displayed on the GUI like this.  
@@ -130,8 +130,8 @@ Finally, you should push a button, 'Choose local (ours)'. And then, the conflict
 ![](2019-04-29-22-47-40.png)
 
 The following figure is a commit log which merged branch 'branch_conflict' into master.  
-![](2019-04-29-22-54-41.png)
+![](2019-04-29-23-48-40.png)
 
 ## Conclusion
 ---
-In this article, I explained about usage of Git GUI client, Fork. I think that there is not any much difference between another Git GUI client, for example, SourceTree. But, as I mentionted, Fork has a conflict resolver and it is very useful because I can fix the conflict easily on GUI. So, I think Fork is more useful than SourceTree.
+In this article, I explained about usage of Git GUI client, Fork. I think that there is not any much difference between another Git GUI client, for example, SourceTree. But, as I mentioned, Fork has a conflict resolver and it is very useful because I can fix the conflict easily on GUI. So, I think Fork is more useful than SourceTree.

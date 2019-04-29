@@ -1,4 +1,4 @@
-# UsageOfFork
+# Usage of Fork
 ---
 Memo about usage of Git GUI client, Fork.  
 
@@ -6,7 +6,7 @@ Memo about usage of Git GUI client, Fork.
 ---
 <!-- TOC -->
 
-- [UsageOfFork](#usageoffork)
+- [Usage of Fork](#usage-of-fork)
     - [Table of contents](#table-of-contents)
     - [Introduction](#introduction)
     - [About Fork](#about-fork)

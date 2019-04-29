@@ -78,3 +78,10 @@ When you want to commit them, you need to select files you want to commit and pu
 You can see the following window by pushing 'Push' button. You can push the commited files to a remote repository on this window.  
 ![](2019-04-29-19-47-41.png)
 
+## Branch creation
+---
+You can see all of branches on the left of GUI. In the following figure, a current checked out branch is master branch. When you create a new branch, you need to do right click on the original branch and select 'Create New Brach...' menue.  
+![](2019-04-29-20-04-36.png)
+
+For example, 2 new branches are created and displayed on the GUI like this.  
+![](2019-04-29-20-15-19.png)
